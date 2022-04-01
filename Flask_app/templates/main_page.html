@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<a href="/">Main page</a>
+<meta charset="UTF-8">
+    <title>Main page</title>
+</head>
+<body>
+    {% for post in posts %}
+        <h1>{{post.title}} <a href="/post/{{post.title}}"> post </a>  </h1> 
+        <p>By {{post.author}}</p>
+    {% endfor %}  
+    <a href="/post/new_post"> New post creation</a> 
+</body>
+</html>
