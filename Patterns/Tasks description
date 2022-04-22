@@ -1,0 +1,9 @@
+Task 1. Creational patterns
+The task is to use one of creational patterns from the article above in a practical data science task.
+
+You are to analyze how train dataset size affects the score of your model. Thus, you're supposed to create subsamples based on the initial dataset.
+
+As part of this task, you may train classical linear regression on the iris dataset. (https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html)
+
+It's necessary to print a range of subsample sizes and corresponding model scores.
+
